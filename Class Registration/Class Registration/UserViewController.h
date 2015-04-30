@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UserViewController : UIViewController
+@interface UserViewController : UIViewController {
+}
+
+@property int userType;
+@property NSDictionary *currentUser;
+
+-(void)setUserType:(int)intIn;
 
 @end

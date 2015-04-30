@@ -1,5 +1,5 @@
 //
-//  ModificationInterface.h
+//  AllClassesView.h
 //  Class Registration
 //
 //  Created by Josh Carter on 4/29/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModificationInterface : UIViewController
-
-@property int userType;
-@property NSDictionary *currentuser;
+@interface AllClassesView : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
 @end

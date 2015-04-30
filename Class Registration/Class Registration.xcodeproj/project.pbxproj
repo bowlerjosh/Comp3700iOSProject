@@ -23,6 +23,8 @@
 		F4D44D491AF1D24A00159477 /* viewInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D471AF1D24A00159477 /* viewInterface.xib */; };
 		F4D44D4C1AF1D2A200159477 /* detailModification.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D4B1AF1D2A200159477 /* detailModification.m */; };
 		F4D44D561AF1D33C00159477 /* detailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D551AF1D33C00159477 /* detailView.m */; };
+		F4D44D5B1AF1ECFB00159477 /* AllClassesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D591AF1ECFB00159477 /* AllClassesView.m */; };
+		F4D44D5C1AF1ECFB00159477 /* AllClassesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D5A1AF1ECFB00159477 /* AllClassesView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		F4D44D4B1AF1D2A200159477 /* detailModification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailModification.m; sourceTree = "<group>"; };
 		F4D44D541AF1D33C00159477 /* detailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailView.h; sourceTree = "<group>"; };
 		F4D44D551AF1D33C00159477 /* detailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailView.m; sourceTree = "<group>"; };
+		F4D44D581AF1ECFB00159477 /* AllClassesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllClassesView.h; sourceTree = "<group>"; };
+		F4D44D591AF1ECFB00159477 /* AllClassesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllClassesView.m; sourceTree = "<group>"; };
+		F4D44D5A1AF1ECFB00159477 /* AllClassesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllClassesView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,7 @@
 		F4D44D121AF1CABD00159477 /* Class Registration */ = {
 			isa = PBXGroup;
 			children = (
+				F4D44D571AF1ECDA00159477 /* Views */,
 				F4D44D531AF1D31500159477 /* view */,
 				F4D44D521AF1D2FB00159477 /* account */,
 				F4D44D511AF1D2F300159477 /* login */,
@@ -186,6 +192,16 @@
 				F4D44D551AF1D33C00159477 /* detailView.m */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		F4D44D571AF1ECDA00159477 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44D581AF1ECFB00159477 /* AllClassesView.h */,
+				F4D44D591AF1ECFB00159477 /* AllClassesView.m */,
+				F4D44D5A1AF1ECFB00159477 /* AllClassesView.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +289,7 @@
 				F4D44D491AF1D24A00159477 /* viewInterface.xib in Resources */,
 				F4D44D3F1AF1D21900159477 /* UserViewController.xib in Resources */,
 				F4D44D3A1AF1CD6600159477 /* database.plist in Resources */,
+				F4D44D5C1AF1ECFB00159477 /* AllClassesView.xib in Resources */,
 				F4D44D241AF1CABD00159477 /* LaunchScreen.xib in Resources */,
 				F4D44D211AF1CABD00159477 /* Images.xcassets in Resources */,
 			);
@@ -294,6 +311,7 @@
 			files = (
 				F4D44D481AF1D24A00159477 /* viewInterface.m in Sources */,
 				F4D44D1C1AF1CABD00159477 /* ViewController.m in Sources */,
+				F4D44D5B1AF1ECFB00159477 /* AllClassesView.m in Sources */,
 				F4D44D3E1AF1D21900159477 /* UserViewController.m in Sources */,
 				F4D44D4C1AF1D2A200159477 /* detailModification.m in Sources */,
 				F4D44D191AF1CABD00159477 /* AppDelegate.m in Sources */,

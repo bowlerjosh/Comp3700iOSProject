@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface viewInterface : UIViewController
+@interface viewInterface : UIViewController<UITableViewDataSource, UITableViewDelegate>
+
+@property int userType;
+@property NSDictionary *currentuser;
+
 
 @end
