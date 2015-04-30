@@ -14,6 +14,15 @@
 		F4D44D211AF1CABD00159477 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D201AF1CABD00159477 /* Images.xcassets */; };
 		F4D44D241AF1CABD00159477 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D221AF1CABD00159477 /* LaunchScreen.xib */; };
 		F4D44D301AF1CABE00159477 /* Class_RegistrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D2F1AF1CABE00159477 /* Class_RegistrationTests.m */; };
+		F4D44D3A1AF1CD6600159477 /* database.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D391AF1CD6600159477 /* database.plist */; };
+		F4D44D3E1AF1D21900159477 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D3C1AF1D21900159477 /* UserViewController.m */; };
+		F4D44D3F1AF1D21900159477 /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D3D1AF1D21900159477 /* UserViewController.xib */; };
+		F4D44D431AF1D23800159477 /* ModificationInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D411AF1D23800159477 /* ModificationInterface.m */; };
+		F4D44D441AF1D23800159477 /* ModificationInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D421AF1D23800159477 /* ModificationInterface.xib */; };
+		F4D44D481AF1D24A00159477 /* viewInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D461AF1D24A00159477 /* viewInterface.m */; };
+		F4D44D491AF1D24A00159477 /* viewInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D471AF1D24A00159477 /* viewInterface.xib */; };
+		F4D44D4C1AF1D2A200159477 /* detailModification.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D4B1AF1D2A200159477 /* detailModification.m */; };
+		F4D44D561AF1D33C00159477 /* detailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D551AF1D33C00159477 /* detailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,20 @@
 		F4D44D291AF1CABE00159477 /* Class RegistrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Class RegistrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D44D2E1AF1CABE00159477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D44D2F1AF1CABE00159477 /* Class_RegistrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class_RegistrationTests.m; sourceTree = "<group>"; };
+		F4D44D391AF1CD6600159477 /* database.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = database.plist; path = "../Class Registration/database.plist"; sourceTree = "<group>"; };
+		F4D44D3B1AF1D21900159477 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		F4D44D3C1AF1D21900159477 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		F4D44D3D1AF1D21900159477 /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		F4D44D401AF1D23800159477 /* ModificationInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModificationInterface.h; sourceTree = "<group>"; };
+		F4D44D411AF1D23800159477 /* ModificationInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModificationInterface.m; sourceTree = "<group>"; };
+		F4D44D421AF1D23800159477 /* ModificationInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModificationInterface.xib; sourceTree = "<group>"; };
+		F4D44D451AF1D24A00159477 /* viewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewInterface.h; sourceTree = "<group>"; };
+		F4D44D461AF1D24A00159477 /* viewInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewInterface.m; sourceTree = "<group>"; };
+		F4D44D471AF1D24A00159477 /* viewInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewInterface.xib; sourceTree = "<group>"; };
+		F4D44D4A1AF1D2A200159477 /* detailModification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailModification.h; sourceTree = "<group>"; };
+		F4D44D4B1AF1D2A200159477 /* detailModification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailModification.m; sourceTree = "<group>"; };
+		F4D44D541AF1D33C00159477 /* detailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailView.h; sourceTree = "<group>"; };
+		F4D44D551AF1D33C00159477 /* detailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +104,12 @@
 		F4D44D121AF1CABD00159477 /* Class Registration */ = {
 			isa = PBXGroup;
 			children = (
+				F4D44D531AF1D31500159477 /* view */,
+				F4D44D521AF1D2FB00159477 /* account */,
+				F4D44D511AF1D2F300159477 /* login */,
+				F4D44D501AF1D2B300159477 /* modifications */,
 				F4D44D171AF1CABD00159477 /* AppDelegate.h */,
 				F4D44D181AF1CABD00159477 /* AppDelegate.m */,
-				F4D44D1A1AF1CABD00159477 /* ViewController.h */,
-				F4D44D1B1AF1CABD00159477 /* ViewController.m */,
 				F4D44D1D1AF1CABD00159477 /* Main.storyboard */,
 				F4D44D201AF1CABD00159477 /* Images.xcassets */,
 				F4D44D221AF1CABD00159477 /* LaunchScreen.xib */,
@@ -114,9 +139,53 @@
 		F4D44D2D1AF1CABE00159477 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4D44D391AF1CD6600159477 /* database.plist */,
 				F4D44D2E1AF1CABE00159477 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4D44D501AF1D2B300159477 /* modifications */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44D401AF1D23800159477 /* ModificationInterface.h */,
+				F4D44D411AF1D23800159477 /* ModificationInterface.m */,
+				F4D44D421AF1D23800159477 /* ModificationInterface.xib */,
+				F4D44D4A1AF1D2A200159477 /* detailModification.h */,
+				F4D44D4B1AF1D2A200159477 /* detailModification.m */,
+			);
+			name = modifications;
+			sourceTree = "<group>";
+		};
+		F4D44D511AF1D2F300159477 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44D1A1AF1CABD00159477 /* ViewController.h */,
+				F4D44D1B1AF1CABD00159477 /* ViewController.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		F4D44D521AF1D2FB00159477 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44D3B1AF1D21900159477 /* UserViewController.h */,
+				F4D44D3C1AF1D21900159477 /* UserViewController.m */,
+				F4D44D3D1AF1D21900159477 /* UserViewController.xib */,
+			);
+			name = account;
+			sourceTree = "<group>";
+		};
+		F4D44D531AF1D31500159477 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44D451AF1D24A00159477 /* viewInterface.h */,
+				F4D44D461AF1D24A00159477 /* viewInterface.m */,
+				F4D44D471AF1D24A00159477 /* viewInterface.xib */,
+				F4D44D541AF1D33C00159477 /* detailView.h */,
+				F4D44D551AF1D33C00159477 /* detailView.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D44D1F1AF1CABD00159477 /* Main.storyboard in Resources */,
+				F4D44D441AF1D23800159477 /* ModificationInterface.xib in Resources */,
+				F4D44D491AF1D24A00159477 /* viewInterface.xib in Resources */,
+				F4D44D3F1AF1D21900159477 /* UserViewController.xib in Resources */,
+				F4D44D3A1AF1CD6600159477 /* database.plist in Resources */,
 				F4D44D241AF1CABD00159477 /* LaunchScreen.xib in Resources */,
 				F4D44D211AF1CABD00159477 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D44D481AF1D24A00159477 /* viewInterface.m in Sources */,
 				F4D44D1C1AF1CABD00159477 /* ViewController.m in Sources */,
+				F4D44D3E1AF1D21900159477 /* UserViewController.m in Sources */,
+				F4D44D4C1AF1D2A200159477 /* detailModification.m in Sources */,
 				F4D44D191AF1CABD00159477 /* AppDelegate.m in Sources */,
+				F4D44D561AF1D33C00159477 /* detailView.m in Sources */,
 				F4D44D161AF1CABD00159477 /* main.m in Sources */,
+				F4D44D431AF1D23800159477 /* ModificationInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

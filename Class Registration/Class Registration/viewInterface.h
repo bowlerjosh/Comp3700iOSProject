@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  viewInterface.h
 //  Class Registration
 //
 //  Created by Josh Carter on 4/29/15.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController {
-    NSDictionary *database;
-}
-
+@interface viewInterface : UIViewController
 
 @end
-

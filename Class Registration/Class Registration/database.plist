@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nextAvailableAccountNumber</key>
+	<string>004</string>
+	<key>nextAvailableClassid</key>
+	<string>002</string>
+	<key>RegistrarInfo</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Josh Carter</string>
+			<key>accountNumber</key>
+			<string>001</string>
+			<key>Login</key>
+			<dict>
+				<key>userName</key>
+				<string>MainRegistrar</string>
+				<key>password</key>
+				<string>123</string>
+			</dict>
+			<key>currentStatus</key>
+			<string>active</string>
+		</dict>
+	</array>
+	<key>InstructorInfo</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>John David</string>
+			<key>accountNumber</key>
+			<string>002</string>
+			<key>Login</key>
+			<dict>
+				<key>userName</key>
+				<string>testInstructor</string>
+				<key>password</key>
+				<string>123</string>
+			</dict>
+			<key>currentStatus</key>
+			<string>active</string>
+		</dict>
+	</array>
+	<key>ClassCatalog</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Comp 3700</string>
+			<key>time</key>
+			<string>12:30</string>
+			<key>location</key>
+			<string>Shelby</string>
+			<key>idNumber</key>
+			<string>001</string>
+			<key>department</key>
+			<string>Eng</string>
+			<key>level</key>
+			<string>Junior</string>
+			<key>preReqClasses</key>
+			<array/>
+			<key>Grade</key>
+			<dict>
+				<key>average</key>
+				<string>94</string>
+				<key>letterGrade</key>
+				<string>A</string>
+			</dict>
+			<key>capacity</key>
+			<string>10</string>
+			<key>Instructor</key>
+			<string>002</string>
+			<key>StudentsList</key>
+			<array>
+				<string>003</string>
+			</array>
+			<key>Reviews</key>
+			<array>
+				<dict>
+					<key>Note</key>
+					<string>Good class</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>StudentInfo</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Stephen Harris</string>
+			<key>accountNumber</key>
+			<string>003</string>
+			<key>level</key>
+			<string>junior</string>
+			<key>currentClass</key>
+			<array>
+				<string>001</string>
+			</array>
+			<key>priorClass</key>
+			<array/>
+			<key>Login</key>
+			<dict>
+				<key>userName</key>
+				<string>testStudent</string>
+				<key>password</key>
+				<string>123</string>
+			</dict>
+			<key>currentStatus</key>
+			<string>active</string>
+		</dict>
+	</array>
+</dict>
+</plist>
