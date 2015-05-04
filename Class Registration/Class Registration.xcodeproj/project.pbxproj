@@ -22,9 +22,28 @@
 		F4D44D481AF1D24A00159477 /* viewInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D461AF1D24A00159477 /* viewInterface.m */; };
 		F4D44D491AF1D24A00159477 /* viewInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D471AF1D24A00159477 /* viewInterface.xib */; };
 		F4D44D4C1AF1D2A200159477 /* detailModification.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D4B1AF1D2A200159477 /* detailModification.m */; };
-		F4D44D561AF1D33C00159477 /* detailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D551AF1D33C00159477 /* detailView.m */; };
 		F4D44D5B1AF1ECFB00159477 /* AllClassesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D591AF1ECFB00159477 /* AllClassesView.m */; };
 		F4D44D5C1AF1ECFB00159477 /* AllClassesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D5A1AF1ECFB00159477 /* AllClassesView.xib */; };
+		F4D44D621AF2641400159477 /* FilteredClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D601AF2641400159477 /* FilteredClassView.m */; };
+		F4D44D631AF2641400159477 /* FilteredClassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D611AF2641400159477 /* FilteredClassView.xib */; };
+		F4D44DA01AF57D7700159477 /* FilteredTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44D9E1AF57D7700159477 /* FilteredTableView.m */; };
+		F4D44DA11AF57D7700159477 /* FilteredTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44D9F1AF57D7700159477 /* FilteredTableView.xib */; };
+		F4D44DA61AF58AB600159477 /* SearchStudentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44DA41AF58AB600159477 /* SearchStudentView.m */; };
+		F4D44DA71AF58AB600159477 /* SearchStudentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44DA51AF58AB600159477 /* SearchStudentView.xib */; };
+		F4D44DAB1AF5C82F00159477 /* StudentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44DA91AF5C82F00159477 /* StudentTableView.m */; };
+		F4D44DAC1AF5C82F00159477 /* StudentTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44DAA1AF5C82F00159477 /* StudentTableView.xib */; };
+		F4D44DB21AF681D700159477 /* SearchInstructorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44DB01AF681D700159477 /* SearchInstructorView.m */; };
+		F4D44DB31AF681D700159477 /* SearchInstructorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44DB11AF681D700159477 /* SearchInstructorView.xib */; };
+		F4D44DB71AF681F000159477 /* InstructorTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44DB51AF681F000159477 /* InstructorTableView.m */; };
+		F4D44DB81AF681F000159477 /* InstructorTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44DB61AF681F000159477 /* InstructorTableView.xib */; };
+		F4D44DBE1AF6A56900159477 /* CreateClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44DBC1AF6A56900159477 /* CreateClass.m */; };
+		F4D44DBF1AF6A56900159477 /* CreateClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44DBD1AF6A56900159477 /* CreateClass.xib */; };
+		F4D44DC31AF6A57D00159477 /* CreateStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44DC11AF6A57D00159477 /* CreateStudent.m */; };
+		F4D44DC41AF6A57D00159477 /* CreateStudent.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44DC21AF6A57D00159477 /* CreateStudent.xib */; };
+		F4D44DC81AF6A58F00159477 /* CreateInstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44DC61AF6A58F00159477 /* CreateInstructor.m */; };
+		F4D44DC91AF6A58F00159477 /* CreateInstructor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44DC71AF6A58F00159477 /* CreateInstructor.xib */; };
+		F4D44DCD1AF6A5A300159477 /* CreateRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D44DCB1AF6A5A300159477 /* CreateRegistrar.m */; };
+		F4D44DCE1AF6A5A300159477 /* CreateRegistrar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D44DCC1AF6A5A300159477 /* CreateRegistrar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,11 +82,39 @@
 		F4D44D471AF1D24A00159477 /* viewInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewInterface.xib; sourceTree = "<group>"; };
 		F4D44D4A1AF1D2A200159477 /* detailModification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailModification.h; sourceTree = "<group>"; };
 		F4D44D4B1AF1D2A200159477 /* detailModification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailModification.m; sourceTree = "<group>"; };
-		F4D44D541AF1D33C00159477 /* detailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailView.h; sourceTree = "<group>"; };
-		F4D44D551AF1D33C00159477 /* detailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailView.m; sourceTree = "<group>"; };
 		F4D44D581AF1ECFB00159477 /* AllClassesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllClassesView.h; sourceTree = "<group>"; };
 		F4D44D591AF1ECFB00159477 /* AllClassesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllClassesView.m; sourceTree = "<group>"; };
 		F4D44D5A1AF1ECFB00159477 /* AllClassesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllClassesView.xib; sourceTree = "<group>"; };
+		F4D44D5F1AF2641400159477 /* FilteredClassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilteredClassView.h; sourceTree = "<group>"; };
+		F4D44D601AF2641400159477 /* FilteredClassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilteredClassView.m; sourceTree = "<group>"; };
+		F4D44D611AF2641400159477 /* FilteredClassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilteredClassView.xib; sourceTree = "<group>"; };
+		F4D44D9D1AF57D7700159477 /* FilteredTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilteredTableView.h; sourceTree = "<group>"; };
+		F4D44D9E1AF57D7700159477 /* FilteredTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilteredTableView.m; sourceTree = "<group>"; };
+		F4D44D9F1AF57D7700159477 /* FilteredTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilteredTableView.xib; sourceTree = "<group>"; };
+		F4D44DA31AF58AB600159477 /* SearchStudentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchStudentView.h; sourceTree = "<group>"; };
+		F4D44DA41AF58AB600159477 /* SearchStudentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchStudentView.m; sourceTree = "<group>"; };
+		F4D44DA51AF58AB600159477 /* SearchStudentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchStudentView.xib; sourceTree = "<group>"; };
+		F4D44DA81AF5C82F00159477 /* StudentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentTableView.h; sourceTree = "<group>"; };
+		F4D44DA91AF5C82F00159477 /* StudentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentTableView.m; sourceTree = "<group>"; };
+		F4D44DAA1AF5C82F00159477 /* StudentTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentTableView.xib; sourceTree = "<group>"; };
+		F4D44DAF1AF681D700159477 /* SearchInstructorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchInstructorView.h; sourceTree = "<group>"; };
+		F4D44DB01AF681D700159477 /* SearchInstructorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchInstructorView.m; sourceTree = "<group>"; };
+		F4D44DB11AF681D700159477 /* SearchInstructorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchInstructorView.xib; sourceTree = "<group>"; };
+		F4D44DB41AF681F000159477 /* InstructorTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructorTableView.h; sourceTree = "<group>"; };
+		F4D44DB51AF681F000159477 /* InstructorTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructorTableView.m; sourceTree = "<group>"; };
+		F4D44DB61AF681F000159477 /* InstructorTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructorTableView.xib; sourceTree = "<group>"; };
+		F4D44DBB1AF6A56900159477 /* CreateClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateClass.h; sourceTree = "<group>"; };
+		F4D44DBC1AF6A56900159477 /* CreateClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateClass.m; sourceTree = "<group>"; };
+		F4D44DBD1AF6A56900159477 /* CreateClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateClass.xib; sourceTree = "<group>"; };
+		F4D44DC01AF6A57D00159477 /* CreateStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateStudent.h; sourceTree = "<group>"; };
+		F4D44DC11AF6A57D00159477 /* CreateStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateStudent.m; sourceTree = "<group>"; };
+		F4D44DC21AF6A57D00159477 /* CreateStudent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateStudent.xib; sourceTree = "<group>"; };
+		F4D44DC51AF6A58F00159477 /* CreateInstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateInstructor.h; sourceTree = "<group>"; };
+		F4D44DC61AF6A58F00159477 /* CreateInstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateInstructor.m; sourceTree = "<group>"; };
+		F4D44DC71AF6A58F00159477 /* CreateInstructor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateInstructor.xib; sourceTree = "<group>"; };
+		F4D44DCA1AF6A5A300159477 /* CreateRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRegistrar.h; sourceTree = "<group>"; };
+		F4D44DCB1AF6A5A300159477 /* CreateRegistrar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRegistrar.m; sourceTree = "<group>"; };
+		F4D44DCC1AF6A5A300159477 /* CreateRegistrar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateRegistrar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +156,11 @@
 		F4D44D121AF1CABD00159477 /* Class Registration */ = {
 			isa = PBXGroup;
 			children = (
-				F4D44D571AF1ECDA00159477 /* Views */,
-				F4D44D531AF1D31500159477 /* view */,
+				F4D44D571AF1ECDA00159477 /* View/Modification Details */,
+				F4D44D531AF1D31500159477 /* View */,
 				F4D44D521AF1D2FB00159477 /* account */,
 				F4D44D511AF1D2F300159477 /* login */,
-				F4D44D501AF1D2B300159477 /* modifications */,
+				F4D44D501AF1D2B300159477 /* Modifications */,
 				F4D44D171AF1CABD00159477 /* AppDelegate.h */,
 				F4D44D181AF1CABD00159477 /* AppDelegate.m */,
 				F4D44D1D1AF1CABD00159477 /* Main.storyboard */,
@@ -151,7 +198,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F4D44D501AF1D2B300159477 /* modifications */ = {
+		F4D44D501AF1D2B300159477 /* Modifications */ = {
 			isa = PBXGroup;
 			children = (
 				F4D44D401AF1D23800159477 /* ModificationInterface.h */,
@@ -160,7 +207,7 @@
 				F4D44D4A1AF1D2A200159477 /* detailModification.h */,
 				F4D44D4B1AF1D2A200159477 /* detailModification.m */,
 			);
-			name = modifications;
+			name = Modifications;
 			sourceTree = "<group>";
 		};
 		F4D44D511AF1D2F300159477 /* login */ = {
@@ -182,26 +229,102 @@
 			name = account;
 			sourceTree = "<group>";
 		};
-		F4D44D531AF1D31500159477 /* view */ = {
+		F4D44D531AF1D31500159477 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				F4D44D451AF1D24A00159477 /* viewInterface.h */,
 				F4D44D461AF1D24A00159477 /* viewInterface.m */,
 				F4D44D471AF1D24A00159477 /* viewInterface.xib */,
-				F4D44D541AF1D33C00159477 /* detailView.h */,
-				F4D44D551AF1D33C00159477 /* detailView.m */,
 			);
-			name = view;
+			name = View;
 			sourceTree = "<group>";
 		};
-		F4D44D571AF1ECDA00159477 /* Views */ = {
+		F4D44D571AF1ECDA00159477 /* View/Modification Details */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44DBA1AF6A55800159477 /* CreateViews */,
+				F4D44DB91AF6A3DD00159477 /* Filtered Table */,
+				F4D44D5D1AF263E400159477 /* All Classes */,
+				F4D44D5E1AF263FA00159477 /* Filtered Classes */,
+				F4D44DAD1AF6023F00159477 /* View Instructor */,
+				F4D44DA21AF58A4600159477 /* View Student Options */,
+			);
+			name = "View/Modification Details";
+			sourceTree = "<group>";
+		};
+		F4D44D5D1AF263E400159477 /* All Classes */ = {
 			isa = PBXGroup;
 			children = (
 				F4D44D581AF1ECFB00159477 /* AllClassesView.h */,
 				F4D44D591AF1ECFB00159477 /* AllClassesView.m */,
 				F4D44D5A1AF1ECFB00159477 /* AllClassesView.xib */,
 			);
-			name = Views;
+			name = "All Classes";
+			sourceTree = "<group>";
+		};
+		F4D44D5E1AF263FA00159477 /* Filtered Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44D5F1AF2641400159477 /* FilteredClassView.h */,
+				F4D44D601AF2641400159477 /* FilteredClassView.m */,
+				F4D44D611AF2641400159477 /* FilteredClassView.xib */,
+			);
+			name = "Filtered Classes";
+			sourceTree = "<group>";
+		};
+		F4D44DA21AF58A4600159477 /* View Student Options */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44DA31AF58AB600159477 /* SearchStudentView.h */,
+				F4D44DA41AF58AB600159477 /* SearchStudentView.m */,
+				F4D44DA51AF58AB600159477 /* SearchStudentView.xib */,
+				F4D44DA81AF5C82F00159477 /* StudentTableView.h */,
+				F4D44DA91AF5C82F00159477 /* StudentTableView.m */,
+				F4D44DAA1AF5C82F00159477 /* StudentTableView.xib */,
+			);
+			name = "View Student Options";
+			sourceTree = "<group>";
+		};
+		F4D44DAD1AF6023F00159477 /* View Instructor */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44DAF1AF681D700159477 /* SearchInstructorView.h */,
+				F4D44DB01AF681D700159477 /* SearchInstructorView.m */,
+				F4D44DB11AF681D700159477 /* SearchInstructorView.xib */,
+				F4D44DB41AF681F000159477 /* InstructorTableView.h */,
+				F4D44DB51AF681F000159477 /* InstructorTableView.m */,
+				F4D44DB61AF681F000159477 /* InstructorTableView.xib */,
+			);
+			name = "View Instructor";
+			sourceTree = "<group>";
+		};
+		F4D44DB91AF6A3DD00159477 /* Filtered Table */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44D9D1AF57D7700159477 /* FilteredTableView.h */,
+				F4D44D9E1AF57D7700159477 /* FilteredTableView.m */,
+				F4D44D9F1AF57D7700159477 /* FilteredTableView.xib */,
+			);
+			name = "Filtered Table";
+			sourceTree = "<group>";
+		};
+		F4D44DBA1AF6A55800159477 /* CreateViews */ = {
+			isa = PBXGroup;
+			children = (
+				F4D44DBB1AF6A56900159477 /* CreateClass.h */,
+				F4D44DBC1AF6A56900159477 /* CreateClass.m */,
+				F4D44DBD1AF6A56900159477 /* CreateClass.xib */,
+				F4D44DC01AF6A57D00159477 /* CreateStudent.h */,
+				F4D44DC11AF6A57D00159477 /* CreateStudent.m */,
+				F4D44DC21AF6A57D00159477 /* CreateStudent.xib */,
+				F4D44DC51AF6A58F00159477 /* CreateInstructor.h */,
+				F4D44DC61AF6A58F00159477 /* CreateInstructor.m */,
+				F4D44DC71AF6A58F00159477 /* CreateInstructor.xib */,
+				F4D44DCA1AF6A5A300159477 /* CreateRegistrar.h */,
+				F4D44DCB1AF6A5A300159477 /* CreateRegistrar.m */,
+				F4D44DCC1AF6A5A300159477 /* CreateRegistrar.xib */,
+			);
+			name = CreateViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,13 +408,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D44D1F1AF1CABD00159477 /* Main.storyboard in Resources */,
+				F4D44D631AF2641400159477 /* FilteredClassView.xib in Resources */,
+				F4D44DC91AF6A58F00159477 /* CreateInstructor.xib in Resources */,
+				F4D44DA11AF57D7700159477 /* FilteredTableView.xib in Resources */,
 				F4D44D441AF1D23800159477 /* ModificationInterface.xib in Resources */,
 				F4D44D491AF1D24A00159477 /* viewInterface.xib in Resources */,
+				F4D44DA71AF58AB600159477 /* SearchStudentView.xib in Resources */,
+				F4D44DB81AF681F000159477 /* InstructorTableView.xib in Resources */,
 				F4D44D3F1AF1D21900159477 /* UserViewController.xib in Resources */,
 				F4D44D3A1AF1CD6600159477 /* database.plist in Resources */,
+				F4D44DB31AF681D700159477 /* SearchInstructorView.xib in Resources */,
+				F4D44DCE1AF6A5A300159477 /* CreateRegistrar.xib in Resources */,
+				F4D44DBF1AF6A56900159477 /* CreateClass.xib in Resources */,
 				F4D44D5C1AF1ECFB00159477 /* AllClassesView.xib in Resources */,
 				F4D44D241AF1CABD00159477 /* LaunchScreen.xib in Resources */,
+				F4D44DC41AF6A57D00159477 /* CreateStudent.xib in Resources */,
 				F4D44D211AF1CABD00159477 /* Images.xcassets in Resources */,
+				F4D44DAC1AF5C82F00159477 /* StudentTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,13 +443,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D44D481AF1D24A00159477 /* viewInterface.m in Sources */,
+				F4D44DB71AF681F000159477 /* InstructorTableView.m in Sources */,
+				F4D44DB21AF681D700159477 /* SearchInstructorView.m in Sources */,
+				F4D44DC81AF6A58F00159477 /* CreateInstructor.m in Sources */,
 				F4D44D1C1AF1CABD00159477 /* ViewController.m in Sources */,
+				F4D44D621AF2641400159477 /* FilteredClassView.m in Sources */,
+				F4D44DC31AF6A57D00159477 /* CreateStudent.m in Sources */,
 				F4D44D5B1AF1ECFB00159477 /* AllClassesView.m in Sources */,
 				F4D44D3E1AF1D21900159477 /* UserViewController.m in Sources */,
+				F4D44DAB1AF5C82F00159477 /* StudentTableView.m in Sources */,
 				F4D44D4C1AF1D2A200159477 /* detailModification.m in Sources */,
+				F4D44DCD1AF6A5A300159477 /* CreateRegistrar.m in Sources */,
+				F4D44DA61AF58AB600159477 /* SearchStudentView.m in Sources */,
+				F4D44DBE1AF6A56900159477 /* CreateClass.m in Sources */,
 				F4D44D191AF1CABD00159477 /* AppDelegate.m in Sources */,
-				F4D44D561AF1D33C00159477 /* detailView.m in Sources */,
 				F4D44D161AF1CABD00159477 /* main.m in Sources */,
+				F4D44DA01AF57D7700159477 /* FilteredTableView.m in Sources */,
 				F4D44D431AF1D23800159477 /* ModificationInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

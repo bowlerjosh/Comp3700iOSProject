@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>nextAvailableAccountNumber</key>
-	<string>004</string>
+	<string>5</string>
 	<key>nextAvailableClassid</key>
-	<string>002</string>
+	<string>3</string>
 	<key>RegistrarInfo</key>
 	<array>
 		<dict>
 			<key>name</key>
 			<string>Josh Carter</string>
 			<key>accountNumber</key>
-			<string>001</string>
+			<string>1</string>
 			<key>Login</key>
 			<dict>
 				<key>userName</key>
@@ -30,7 +30,7 @@
 			<key>name</key>
 			<string>John David</string>
 			<key>accountNumber</key>
-			<string>002</string>
+			<string>2</string>
 			<key>Login</key>
 			<dict>
 				<key>userName</key>
@@ -40,6 +40,29 @@
 			</dict>
 			<key>currentStatus</key>
 			<string>active</string>
+			<key>reviews</key>
+			<array>
+				<string>Comp 3700 - Good class</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yilmaz</string>
+			<key>accountNumber</key>
+			<string>4</string>
+			<key>Login</key>
+			<dict>
+				<key>userName</key>
+				<string>teacher2</string>
+				<key>password</key>
+				<string>123</string>
+			</dict>
+			<key>currentStatus</key>
+			<string>active</string>
+			<key>reviews</key>
+			<array>
+				<string>Comp 3700 - Great understanding of subject</string>
+			</array>
 		</dict>
 	</array>
 	<key>ClassCatalog</key>
@@ -52,7 +75,7 @@
 			<key>location</key>
 			<string>Shelby</string>
 			<key>idNumber</key>
-			<string>001</string>
+			<string>1</string>
 			<key>department</key>
 			<string>Eng</string>
 			<key>level</key>
@@ -62,42 +85,63 @@
 			<key>Grade</key>
 			<dict>
 				<key>average</key>
-				<string>94</string>
+				<string>80</string>
 				<key>letterGrade</key>
-				<string>A</string>
+				<string>B</string>
 			</dict>
 			<key>capacity</key>
-			<string>10</string>
+			<string>1</string>
 			<key>Instructor</key>
-			<string>002</string>
+			<string>4</string>
 			<key>StudentsList</key>
 			<array>
-				<string>003</string>
+				<string>1</string>
 			</array>
-			<key>Reviews</key>
-			<array>
-				<dict>
-					<key>Note</key>
-					<string>Good class</string>
-				</dict>
-			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comp 3800</string>
+			<key>time</key>
+			<string>1:00</string>
+			<key>location</key>
+			<string>Brown</string>
+			<key>idNumber</key>
+			<string>2</string>
+			<key>department</key>
+			<string>Eng</string>
+			<key>level</key>
+			<string>Senior</string>
+			<key>preReqClasses</key>
+			<array/>
+			<key>Grade</key>
+			<dict/>
+			<key>capacity</key>
+			<string>11</string>
+			<key>Instructor</key>
+			<string>2</string>
+			<key>StudentsList</key>
+			<array/>
 		</dict>
 	</array>
 	<key>StudentInfo</key>
 	<array>
 		<dict>
+			<key>GPA</key>
+			<string>3.0</string>
 			<key>name</key>
 			<string>Stephen Harris</string>
 			<key>accountNumber</key>
-			<string>003</string>
+			<string>3</string>
 			<key>level</key>
 			<string>junior</string>
 			<key>currentClass</key>
 			<array>
-				<string>001</string>
+				<string>1</string>
 			</array>
 			<key>priorClass</key>
-			<array/>
+			<array>
+				<string>2</string>
+			</array>
 			<key>Login</key>
 			<dict>
 				<key>userName</key>

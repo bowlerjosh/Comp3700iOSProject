@@ -103,7 +103,7 @@
                 //log the user in as a student
                 UserViewController *userIsStudent = [[UserViewController alloc]initWithNibName:@"UserViewController" bundle:nil];
                 [userIsStudent setUserType:2];
-                [userIsStudent setCurrentUser:[registrars objectAtIndex:i]];
+                [userIsStudent setCurrentUser:[students objectAtIndex:i]];
                 [self.navigationController pushViewController:userIsStudent animated:YES];
                 return;
             }
@@ -126,56 +126,24 @@
 }
 
 -(void)loadDatabase {
-    NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"database" ofType:@"plist"];
     
-    database = [[NSDictionary alloc] initWithContentsOfFile:plistCatPath];
+    NSError *error;
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:@"database.plist"]; //3
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    if (![fileManager fileExistsAtPath: path]) //4
+    {
+        NSString *bundle = [[NSBundle mainBundle] pathForResource:@"database" ofType:@"plist"]; //5
+        
+        [fileManager copyItemAtPath:bundle toPath: path error:&error]; //6
+    }
+    
+    //get top level of database
+    
+    database = [NSMutableDictionary dictionaryWithContentsOfFile:path];
 }
-
-
-/*
- example code used to overwrite a plist
- -(void)setFavorite {
- [self didRegisterwithChannel];
- 
- //save the favorite to the app memory
- NSFileManager *fileManager = [NSFileManager defaultManager];
- NSError *error;
- NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
- NSString *documentsDirectory = [paths objectAtIndex:0];
- 
- NSString *plistPath = [documentsDirectory stringByAppendingPathComponent:@"favorites.plist"];
- 
- NSMutableDictionary *curSchool = [[NSMutableDictionary alloc]init];
- NSDictionary *curManifest = manifest;
- NSString *curID = [curManifest objectForKey:@"id"];
- NSString *curName = [curManifest objectForKey:@"name"];
- [curSchool setObject:curID forKey:@"id"];
- [curSchool setObject:curName forKey:@"name"];
- 
- if ([fileManager fileExistsAtPath:plistPath] == NO) {
- NSString *resourcePath = [[NSBundle mainBundle] pathForResource:@"favorites" ofType:@"plist"];
- [fileManager copyItemAtPath:resourcePath toPath:plistPath error:&error];
- NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:plistPath];
- int numSchools = [plist count];
- NSString *curNum = [NSString stringWithFormat:@"%i",numSchools];
- [plist setObject:curSchool forKey:curNum];
- [plist writeToFile:plistPath atomically:YES];
- }
- else {
- NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:plistPath];
- int numSchools = [plist count];
- NSString *curNum = [NSString stringWithFormat:@"%i",numSchools];
- [plist setObject:curSchool forKey:curNum];
- [plist writeToFile:plistPath atomically:YES];
- }
- 
- //
- //favoriteButton = [[UIButton alloc]initWithFrame:CGRectMake(45, 100-45, 45, 45)];
- UIImage *btnImage = [UIImage imageNamed:@"selStar.png"];
- [favoriteButton setImage:btnImage forState:UIControlStateNormal];
- [favoriteButton addTarget:self action:@selector(setUnFavorite) forControlEvents:UIControlEventTouchUpInside];
- }
- */
-
 @end
 

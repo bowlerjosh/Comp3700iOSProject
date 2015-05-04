@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateRegistrar">
+            <connections>
+                <outlet property="initialStatus" destination="ggz-ws-sKl" id="x5R-LZ-idg"/>
+                <outlet property="loginName" destination="Pe2-di-fB2" id="pQP-V3-FW1"/>
+                <outlet property="loginPassword" destination="DFG-ek-SzY" id="m6k-J9-oBa"/>
+                <outlet property="registrarName" destination="3nP-nC-yfu" id="a3T-tH-G10"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please fill in all Registrar info:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEP-2W-21g">
+                    <rect key="frame" x="8" y="72" width="584" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Registrar Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3nP-nC-yfu">
+                    <rect key="frame" x="8" y="101" width="584" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pe2-di-fB2">
+                    <rect key="frame" x="8" y="139" width="584" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Initial Status" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ggz-ws-sKl">
+                    <rect key="frame" x="8" y="215" width="584" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DFG-ek-SzY">
+                    <rect key="frame" x="8" y="177" width="584" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DFG-ek-SzY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="BfW-FS-AXv"/>
+                <constraint firstItem="ggz-ws-sKl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="GLO-8x-E2A"/>
+                <constraint firstItem="DFG-ek-SzY" firstAttribute="top" secondItem="Pe2-di-fB2" secondAttribute="bottom" constant="8" id="IZg-ix-rGX"/>
+                <constraint firstAttribute="trailing" secondItem="ggz-ws-sKl" secondAttribute="trailing" constant="8" id="JKf-Fu-l9E"/>
+                <constraint firstItem="Pe2-di-fB2" firstAttribute="top" secondItem="3nP-nC-yfu" secondAttribute="bottom" constant="8" id="Jtu-JX-xgT"/>
+                <constraint firstItem="3nP-nC-yfu" firstAttribute="top" secondItem="pEP-2W-21g" secondAttribute="bottom" constant="8" id="Sfe-RD-mvr"/>
+                <constraint firstAttribute="trailing" secondItem="pEP-2W-21g" secondAttribute="trailing" constant="8" id="Vhq-JU-ipw"/>
+                <constraint firstItem="ggz-ws-sKl" firstAttribute="top" secondItem="DFG-ek-SzY" secondAttribute="bottom" constant="8" id="XE2-ub-eit"/>
+                <constraint firstItem="pEP-2W-21g" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="72" id="YR7-2J-6V1"/>
+                <constraint firstAttribute="trailing" secondItem="Pe2-di-fB2" secondAttribute="trailing" constant="8" id="ZTE-vZ-fME"/>
+                <constraint firstItem="3nP-nC-yfu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="hhr-Xu-9Ao"/>
+                <constraint firstAttribute="trailing" secondItem="DFG-ek-SzY" secondAttribute="trailing" constant="8" id="idM-Qu-oTa"/>
+                <constraint firstItem="Pe2-di-fB2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="idl-Wn-LAX"/>
+                <constraint firstItem="pEP-2W-21g" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="n2L-gL-L2B"/>
+                <constraint firstAttribute="trailing" secondItem="3nP-nC-yfu" secondAttribute="trailing" constant="8" id="vSr-hi-3KB"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

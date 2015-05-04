@@ -58,9 +58,23 @@
 -(void)loadDatabase {
     allClasses = [[NSArray alloc]init];
     
-    NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"database" ofType:@"plist"];
-    NSDictionary *database = [[NSDictionary alloc] initWithContentsOfFile:plistCatPath];
-    allClasses = [database objectForKey:@"ClassCatalog"];
+    NSError *error;
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:@"database.plist"]; //3
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    if (![fileManager fileExistsAtPath: path]) //4
+    {
+        NSString *bundle = [[NSBundle mainBundle] pathForResource:@"database" ofType:@"plist"]; //5
+        
+        [fileManager copyItemAtPath:bundle toPath: path error:&error]; //6
+    }
+    
+    //get top level of database
+    
+    allClasses = [[NSMutableDictionary dictionaryWithContentsOfFile:path] objectForKey:@"ClassCatalog"];
 }
 
 @end

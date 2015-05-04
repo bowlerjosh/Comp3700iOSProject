@@ -15,7 +15,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="JtL-MV-Vbp">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="JtL-MV-Vbp">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
@@ -28,7 +28,7 @@
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="JtL-MV-Vbp" secondAttribute="bottom" id="1th-ij-aHJ"/>
                 <constraint firstAttribute="trailing" secondItem="JtL-MV-Vbp" secondAttribute="trailing" id="U8g-NQ-TuK"/>
-                <constraint firstItem="JtL-MV-Vbp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="jmq-g5-C4B"/>
+                <constraint firstItem="JtL-MV-Vbp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jmq-g5-C4B"/>
                 <constraint firstItem="JtL-MV-Vbp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jyA-g3-h5H"/>
             </constraints>
         </view>
